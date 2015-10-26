@@ -1,0 +1,6 @@
+Claim,Paid Amount,comparative
+Claim,Adjustment Date,date range
+Claim,Adjustment Date,date range
+Claim,Charge Amount,comparative
+Provider,National Provider Identifier,text
+Provider,National Provider Identifier,text

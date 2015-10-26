@@ -1,0 +1,2 @@
+Browser Log 
+Mon Aug 10 17:37:51 MSK 2015 SEVERE http://enqadf02:8080/dsbuilder/qbox 0:0 Failed to load resource: the server responded with a status of 500 (Internal Server Error)

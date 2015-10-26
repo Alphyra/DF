@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]" parallel="none">
+  <parameter name="browser" value="chrome"/>
+  <test name="Debug(failed)" parallel="none">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="df.tests.testA">
+        <methods>
+          <include name="before"/>
+          <include name="test"/>
+          <include name="after"/>
+        </methods>
+      </class> <!-- df.tests.testA -->
+    </classes>
+  </test> <!-- Debug(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

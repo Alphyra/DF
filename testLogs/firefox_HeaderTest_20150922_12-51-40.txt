@@ -1,0 +1,18 @@
+The following asserts failed:
+ERROR: Logo isn't present
+
+------ [Detailed Test Output] ------
+Verifying of logo presence
+---ERROR Element By.xpath: //img[@src='images/logo.png'] isn't found
+Unable to locate element: {"method":"xpath","selector":"//img[@src='images/logo.png']"}
+Command duration or timeout: 5.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'WSQAICD1001n', ip: '192.168.10.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7736ba67-e7e8-49e7-b765-770908a27d62
+*** Element info: {Using=xpath, value=//img[@src='images/logo.png']}
+Logo isn't present
+------ [END] ------
+

@@ -1,0 +1,40 @@
+Claim,businesssignificantdate,date range
+Claim,datasource,text
+Claim,Claim Type,text
+Claim,ICDVersion,text
+Claim,submittingProvider,text
+Claim,submittingProviderType,text
+Claim,ClaimSubType,text
+Claim,Claim Status,text
+Claim,Claim Frequency,comparative
+Claim,Principal Diagnosis,text
+Claim,Principal Procedure,text
+Claim,Patient Reason for Visit,text
+Claim,Charge Amount,comparative
+Claim,Paid Amount,comparative
+Claim,Adjustment Date,date range
+Member,groupIds,text
+Member,PolicyID,text
+Member,payerOrganizationSid,text
+Member,MemberPlanBeginDate,date range
+Member,MemberPlanEndDate,date range
+Provider,National Provider Identifier,text
+Provider,Provider Organization,text
+Provider,Provider Specialty,text
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

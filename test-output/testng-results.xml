@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="13866" started-at="2015-10-12T16:19:23Z" finished-at="2015-10-12T16:19:37Z">
+    <groups>
+    </groups>
+    <test name="Debug" duration-ms="13866" started-at="2015-10-12T16:19:23Z" finished-at="2015-10-12T16:19:37Z">
+      <class name="df.tests.testA">
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:df.tests.testA@6cd8737]" name="before" is-config="true" duration-ms="8105" started-at="2015-10-12T19:19:23Z" finished-at="2015-10-12T19:19:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test()[pri:0, instance:df.tests.testA@6cd8737]" name="test" duration-ms="4068" started-at="2015-10-12T19:19:31Z" finished-at="2015-10-12T19:19:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="after(java.lang.String)[pri:0, instance:df.tests.testA@6cd8737]" name="after" is-config="true" duration-ms="1682" started-at="2015-10-12T19:19:35Z" finished-at="2015-10-12T19:19:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- df.tests.testA -->
+    </test> <!-- Debug -->
+  </suite> <!-- TestSuite -->
+</testng-results>

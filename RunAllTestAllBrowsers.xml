@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" parallel="none">
+ 
+	<test name="RunAtFirefox">
+		<parameter name = "browser" value = "firefox" />
+		<classes>
+			<class name="df.tests.HeaderTest"/>
+			<class name="df.tests.LeftNavBarTest"/>
+			<class name="df.tests.MainPanelTest"/>
+			<class name="df.tests.DefinitionTabTest" />
+			<class name="df.tests.FiltersTest" />
+ 		</classes>
+ 	</test>
+ 
+	<test name="RunAtChrome">
+		<parameter name = "browser" value = "chrome" />
+		<classes>
+			<class name="df.tests.HeaderTest"/>
+			<class name="df.tests.LeftNavBarTest"/>
+			<class name="df.tests.MainPanelTest"/>
+			<class name="df.tests.DefinitionTabTest" />
+			<class name="df.tests.FiltersTest" />
+ 		</classes>
+ 	</test>
+ 	
+	<test name="RunAtIE">
+		<parameter name = "browser" value = "ie" />
+		<classes>
+			<class name="df.tests.HeaderTest"/>
+			<class name="df.tests.LeftNavBarTest"/>
+			<class name="df.tests.MainPanelTest"/>
+			<class name="df.tests.DefinitionTabTest" />
+			<class name="df.tests.FiltersTest" />
+ 		</classes>
+ 	</test>
+ 	
+</suite>

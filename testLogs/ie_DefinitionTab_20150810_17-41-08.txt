@@ -1,0 +1,309 @@
+The following asserts failed:
+ERROR: incorrect text at Info label
+------ [Detailed Test Output] ------
+Verifying of Definition Tab presence
+Definition Tab is present
+Verify if 'Start Preview' button is disabled
+---Start getting value for attribut: class of element: By.xpath: .//*[@id='tabDefinition']//button[text()='Start Preview']
+---Start to find element: By.xpath: .//*[@id='tabDefinition']//button[text()='Start Preview']
+'Start Preview' button is disabled
+Verify if 'Clear Preview Data' button is disabled
+---Start getting value for attribut: class of element: By.xpath: .//*[@id='tabDefinition']//button[text()='Clear Preview Data']
+---Start to find element: By.xpath: .//*[@id='tabDefinition']//button[text()='Clear Preview Data']
+'Clear Preview Data' button is disabled
+Verify if 'Clear All' button is disabled
+---Start getting value for attribut: class of element: By.xpath: .//*[@id='tabDefinition']//button[text()='Clear All']
+---Start to find element: By.xpath: .//*[@id='tabDefinition']//button[text()='Clear All']
+'Clear All' button is disabled
+Verify text at info label. Expected text: Click the 'Start Preview' button above to start streaming
+---Start getting text on element: By.xpath: .//*[@id='tabDefinition']/div[3]
+---Start to find element: By.xpath: .//*[@id='tabDefinition']/div[3]
+text 'Click the 'Start Preview' button above to start streaming' is present at Info Label
+Select 'Claim' menu item
+Open template menu
+---Start to click on element: By.xpath: .//*[@id='app']//a[@class='dropdown-toggle']
+---Start to find element: By.xpath: .//*[@id='app']//a[@class='dropdown-toggle']
+---Start to click on element: By.xpath: .//*[@class='dropdown-menu']//a[text()='Claim']
+---Start to find element: By.xpath: .//*[@class='dropdown-menu']//a[text()='Claim']
+Click on 'Member' group header in Claim template
+---Start to click on element: By.xpath: .//li[contains(@data-reactid,'member')]/a[1]
+---Start to find element: By.xpath: .//li[contains(@data-reactid,'member')]/a[1]
+Click on 'Provider' group header
+---Start to click on element: By.xpath: .//li[contains(@data-reactid,'billingProvider')]/a[1]
+---Start to find element: By.xpath: .//li[contains(@data-reactid,'billingProvider')]/a[1]
+Click on any field
+---Start to find elements: By.xpath: .//*[contains(@class,'list-group-item pointer')]/span[1]
+---Start getting count of element: By.xpath: .//*[contains(@class,'list-group-item pointer')]/span[1]
+---Start to find elements: By.xpath: .//*[contains(@class,'list-group-item pointer')]/span[1]
+Field ' providerClaimId' is selected
+Get name of selected field
+---Start getting text on element: By.xpath: .//*[@class='pointer']/span
+---Start to find element: By.xpath: .//*[@class='pointer']/span
+Definition Tab contains field 'providerClaimId'
+Verify if 'Start Preview' button is disabled
+---Start getting value for attribut: class of element: By.xpath: .//*[@id='tabDefinition']//button[text()='Start Preview']
+---Start to find element: By.xpath: .//*[@id='tabDefinition']//button[text()='Start Preview']
+'Start Preview' button is enable
+Verify if 'Clear Preview Data' button is disabled
+---Start getting value for attribut: class of element: By.xpath: .//*[@id='tabDefinition']//button[text()='Clear Preview Data']
+---Start to find element: By.xpath: .//*[@id='tabDefinition']//button[text()='Clear Preview Data']
+'Clear Preview Data' button is disabled
+Verify if 'Clear All' button is disabled
+---Start getting value for attribut: class of element: By.xpath: .//*[@id='tabDefinition']//button[text()='Clear All']
+---Start to find element: By.xpath: .//*[@id='tabDefinition']//button[text()='Clear All']
+'Clear All' button is enable
+Click 'Start Preview' button
+---Start to click on element: By.xpath: .//*[@id='tabDefinition']//button[text()='Start Preview']
+---Start to find element: By.xpath: .//*[@id='tabDefinition']//button[text()='Start Preview']
+Verify text at info label. Expected text: Preview started:
+---Start getting text on element: By.xpath: .//*[@id='tabDefinition']/div[3]
+---Start to find element: By.xpath: .//*[@id='tabDefinition']/div[3]
+---ERROR getting text at element By.xpath: .//*[@id='tabDefinition']/div[3]
+Modal dialog present: Internal Server Error
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'WSQAICD1001n', ip: '10.30.54.67', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=10, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:8665/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 9784f5e1-ce21-4e8e-b650-85d078144fad
+*** Element info: {Using=xpath, value=.//*[@id='tabDefinition']/div[3]}
+ERORR during search text 'Preview started:' at Info Label
+null
+------ [END] ------
+
+, ERROR: incorrect text at Info label
+------ [Detailed Test Output] ------
+Verifying of Definition Tab presence
+Definition Tab is present
+Verify if 'Start Preview' button is disabled
+---Start getting value for attribut: class of element: By.xpath: .//*[@id='tabDefinition']//button[text()='Start Preview']
+---Start to find element: By.xpath: .//*[@id='tabDefinition']//button[text()='Start Preview']
+'Start Preview' button is disabled
+Verify if 'Clear Preview Data' button is disabled
+---Start getting value for attribut: class of element: By.xpath: .//*[@id='tabDefinition']//button[text()='Clear Preview Data']
+---Start to find element: By.xpath: .//*[@id='tabDefinition']//button[text()='Clear Preview Data']
+'Clear Preview Data' button is disabled
+Verify if 'Clear All' button is disabled
+---Start getting value for attribut: class of element: By.xpath: .//*[@id='tabDefinition']//button[text()='Clear All']
+---Start to find element: By.xpath: .//*[@id='tabDefinition']//button[text()='Clear All']
+'Clear All' button is disabled
+Verify text at info label. Expected text: Click the 'Start Preview' button above to start streaming
+---Start getting text on element: By.xpath: .//*[@id='tabDefinition']/div[3]
+---Start to find element: By.xpath: .//*[@id='tabDefinition']/div[3]
+text 'Click the 'Start Preview' button above to start streaming' is present at Info Label
+Select 'Claim' menu item
+Open template menu
+---Start to click on element: By.xpath: .//*[@id='app']//a[@class='dropdown-toggle']
+---Start to find element: By.xpath: .//*[@id='app']//a[@class='dropdown-toggle']
+---Start to click on element: By.xpath: .//*[@class='dropdown-menu']//a[text()='Claim']
+---Start to find element: By.xpath: .//*[@class='dropdown-menu']//a[text()='Claim']
+Click on 'Member' group header in Claim template
+---Start to click on element: By.xpath: .//li[contains(@data-reactid,'member')]/a[1]
+---Start to find element: By.xpath: .//li[contains(@data-reactid,'member')]/a[1]
+Click on 'Provider' group header
+---Start to click on element: By.xpath: .//li[contains(@data-reactid,'billingProvider')]/a[1]
+---Start to find element: By.xpath: .//li[contains(@data-reactid,'billingProvider')]/a[1]
+Click on any field
+---Start to find elements: By.xpath: .//*[contains(@class,'list-group-item pointer')]/span[1]
+---Start getting count of element: By.xpath: .//*[contains(@class,'list-group-item pointer')]/span[1]
+---Start to find elements: By.xpath: .//*[contains(@class,'list-group-item pointer')]/span[1]
+Field ' providerClaimId' is selected
+Get name of selected field
+---Start getting text on element: By.xpath: .//*[@class='pointer']/span
+---Start to find element: By.xpath: .//*[@class='pointer']/span
+Definition Tab contains field 'providerClaimId'
+Verify if 'Start Preview' button is disabled
+---Start getting value for attribut: class of element: By.xpath: .//*[@id='tabDefinition']//button[text()='Start Preview']
+---Start to find element: By.xpath: .//*[@id='tabDefinition']//button[text()='Start Preview']
+'Start Preview' button is enable
+Verify if 'Clear Preview Data' button is disabled
+---Start getting value for attribut: class of element: By.xpath: .//*[@id='tabDefinition']//button[text()='Clear Preview Data']
+---Start to find element: By.xpath: .//*[@id='tabDefinition']//button[text()='Clear Preview Data']
+'Clear Preview Data' button is disabled
+Verify if 'Clear All' button is disabled
+---Start getting value for attribut: class of element: By.xpath: .//*[@id='tabDefinition']//button[text()='Clear All']
+---Start to find element: By.xpath: .//*[@id='tabDefinition']//button[text()='Clear All']
+'Clear All' button is enable
+Click 'Start Preview' button
+---Start to click on element: By.xpath: .//*[@id='tabDefinition']//button[text()='Start Preview']
+---Start to find element: By.xpath: .//*[@id='tabDefinition']//button[text()='Start Preview']
+Verify text at info label. Expected text: Preview started:
+---Start getting text on element: By.xpath: .//*[@id='tabDefinition']/div[3]
+---Start to find element: By.xpath: .//*[@id='tabDefinition']/div[3]
+---ERROR getting text at element By.xpath: .//*[@id='tabDefinition']/div[3]
+Modal dialog present: Internal Server Error
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'WSQAICD1001n', ip: '10.30.54.67', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=10, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:8665/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 9784f5e1-ce21-4e8e-b650-85d078144fad
+*** Element info: {Using=xpath, value=.//*[@id='tabDefinition']/div[3]}
+ERORR during search text 'Preview started:' at Info Label
+null
+Verify text at info label. Expected text: 17:41
+---Start getting text on element: By.xpath: .//*[@id='tabDefinition']/div[3]
+---Start to find element: By.xpath: .//*[@id='tabDefinition']/div[3]
+text '17:41' ISN'T present at Info Label. Unexpected text value: Click the 'Start Preview' button above to start streaming
+------ [END] ------
+
+, ERROR: incorrect text at Info label
+------ [Detailed Test Output] ------
+Verifying of Definition Tab presence
+Definition Tab is present
+Verify if 'Start Preview' button is disabled
+---Start getting value for attribut: class of element: By.xpath: .//*[@id='tabDefinition']//button[text()='Start Preview']
+---Start to find element: By.xpath: .//*[@id='tabDefinition']//button[text()='Start Preview']
+'Start Preview' button is disabled
+Verify if 'Clear Preview Data' button is disabled
+---Start getting value for attribut: class of element: By.xpath: .//*[@id='tabDefinition']//button[text()='Clear Preview Data']
+---Start to find element: By.xpath: .//*[@id='tabDefinition']//button[text()='Clear Preview Data']
+'Clear Preview Data' button is disabled
+Verify if 'Clear All' button is disabled
+---Start getting value for attribut: class of element: By.xpath: .//*[@id='tabDefinition']//button[text()='Clear All']
+---Start to find element: By.xpath: .//*[@id='tabDefinition']//button[text()='Clear All']
+'Clear All' button is disabled
+Verify text at info label. Expected text: Click the 'Start Preview' button above to start streaming
+---Start getting text on element: By.xpath: .//*[@id='tabDefinition']/div[3]
+---Start to find element: By.xpath: .//*[@id='tabDefinition']/div[3]
+text 'Click the 'Start Preview' button above to start streaming' is present at Info Label
+Select 'Claim' menu item
+Open template menu
+---Start to click on element: By.xpath: .//*[@id='app']//a[@class='dropdown-toggle']
+---Start to find element: By.xpath: .//*[@id='app']//a[@class='dropdown-toggle']
+---Start to click on element: By.xpath: .//*[@class='dropdown-menu']//a[text()='Claim']
+---Start to find element: By.xpath: .//*[@class='dropdown-menu']//a[text()='Claim']
+Click on 'Member' group header in Claim template
+---Start to click on element: By.xpath: .//li[contains(@data-reactid,'member')]/a[1]
+---Start to find element: By.xpath: .//li[contains(@data-reactid,'member')]/a[1]
+Click on 'Provider' group header
+---Start to click on element: By.xpath: .//li[contains(@data-reactid,'billingProvider')]/a[1]
+---Start to find element: By.xpath: .//li[contains(@data-reactid,'billingProvider')]/a[1]
+Click on any field
+---Start to find elements: By.xpath: .//*[contains(@class,'list-group-item pointer')]/span[1]
+---Start getting count of element: By.xpath: .//*[contains(@class,'list-group-item pointer')]/span[1]
+---Start to find elements: By.xpath: .//*[contains(@class,'list-group-item pointer')]/span[1]
+Field ' providerClaimId' is selected
+Get name of selected field
+---Start getting text on element: By.xpath: .//*[@class='pointer']/span
+---Start to find element: By.xpath: .//*[@class='pointer']/span
+Definition Tab contains field 'providerClaimId'
+Verify if 'Start Preview' button is disabled
+---Start getting value for attribut: class of element: By.xpath: .//*[@id='tabDefinition']//button[text()='Start Preview']
+---Start to find element: By.xpath: .//*[@id='tabDefinition']//button[text()='Start Preview']
+'Start Preview' button is enable
+Verify if 'Clear Preview Data' button is disabled
+---Start getting value for attribut: class of element: By.xpath: .//*[@id='tabDefinition']//button[text()='Clear Preview Data']
+---Start to find element: By.xpath: .//*[@id='tabDefinition']//button[text()='Clear Preview Data']
+'Clear Preview Data' button is disabled
+Verify if 'Clear All' button is disabled
+---Start getting value for attribut: class of element: By.xpath: .//*[@id='tabDefinition']//button[text()='Clear All']
+---Start to find element: By.xpath: .//*[@id='tabDefinition']//button[text()='Clear All']
+'Clear All' button is enable
+Click 'Start Preview' button
+---Start to click on element: By.xpath: .//*[@id='tabDefinition']//button[text()='Start Preview']
+---Start to find element: By.xpath: .//*[@id='tabDefinition']//button[text()='Start Preview']
+Verify text at info label. Expected text: Preview started:
+---Start getting text on element: By.xpath: .//*[@id='tabDefinition']/div[3]
+---Start to find element: By.xpath: .//*[@id='tabDefinition']/div[3]
+---ERROR getting text at element By.xpath: .//*[@id='tabDefinition']/div[3]
+Modal dialog present: Internal Server Error
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'WSQAICD1001n', ip: '10.30.54.67', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=10, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:8665/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 9784f5e1-ce21-4e8e-b650-85d078144fad
+*** Element info: {Using=xpath, value=.//*[@id='tabDefinition']/div[3]}
+ERORR during search text 'Preview started:' at Info Label
+null
+Verify text at info label. Expected text: 17:41
+---Start getting text on element: By.xpath: .//*[@id='tabDefinition']/div[3]
+---Start to find element: By.xpath: .//*[@id='tabDefinition']/div[3]
+text '17:41' ISN'T present at Info Label. Unexpected text value: Click the 'Start Preview' button above to start streaming
+Verify text at info label. Expected text: Last record received: never
+---Start getting text on element: By.xpath: .//*[@id='tabDefinition']/div[3]
+---Start to find element: By.xpath: .//*[@id='tabDefinition']/div[3]
+text 'Last record received: never' ISN'T present at Info Label. Unexpected text value: Click the 'Start Preview' button above to start streaming
+------ [END] ------
+
+, ERROR: 'Clear All' button isn't disabled
+------ [Detailed Test Output] ------
+Verifying of Definition Tab presence
+Definition Tab is present
+Verify if 'Start Preview' button is disabled
+---Start getting value for attribut: class of element: By.xpath: .//*[@id='tabDefinition']//button[text()='Start Preview']
+---Start to find element: By.xpath: .//*[@id='tabDefinition']//button[text()='Start Preview']
+'Start Preview' button is disabled
+Verify if 'Clear Preview Data' button is disabled
+---Start getting value for attribut: class of element: By.xpath: .//*[@id='tabDefinition']//button[text()='Clear Preview Data']
+---Start to find element: By.xpath: .//*[@id='tabDefinition']//button[text()='Clear Preview Data']
+'Clear Preview Data' button is disabled
+Verify if 'Clear All' button is disabled
+---Start getting value for attribut: class of element: By.xpath: .//*[@id='tabDefinition']//button[text()='Clear All']
+---Start to find element: By.xpath: .//*[@id='tabDefinition']//button[text()='Clear All']
+'Clear All' button is disabled
+Verify text at info label. Expected text: Click the 'Start Preview' button above to start streaming
+---Start getting text on element: By.xpath: .//*[@id='tabDefinition']/div[3]
+---Start to find element: By.xpath: .//*[@id='tabDefinition']/div[3]
+text 'Click the 'Start Preview' button above to start streaming' is present at Info Label
+Select 'Claim' menu item
+Open template menu
+---Start to click on element: By.xpath: .//*[@id='app']//a[@class='dropdown-toggle']
+---Start to find element: By.xpath: .//*[@id='app']//a[@class='dropdown-toggle']
+---Start to click on element: By.xpath: .//*[@class='dropdown-menu']//a[text()='Claim']
+---Start to find element: By.xpath: .//*[@class='dropdown-menu']//a[text()='Claim']
+Click on 'Member' group header in Claim template
+---Start to click on element: By.xpath: .//li[contains(@data-reactid,'member')]/a[1]
+---Start to find element: By.xpath: .//li[contains(@data-reactid,'member')]/a[1]
+Click on 'Provider' group header
+---Start to click on element: By.xpath: .//li[contains(@data-reactid,'billingProvider')]/a[1]
+---Start to find element: By.xpath: .//li[contains(@data-reactid,'billingProvider')]/a[1]
+Click on any field
+---Start to find elements: By.xpath: .//*[contains(@class,'list-group-item pointer')]/span[1]
+---Start getting count of element: By.xpath: .//*[contains(@class,'list-group-item pointer')]/span[1]
+---Start to find elements: By.xpath: .//*[contains(@class,'list-group-item pointer')]/span[1]
+Field ' providerClaimId' is selected
+Get name of selected field
+---Start getting text on element: By.xpath: .//*[@class='pointer']/span
+---Start to find element: By.xpath: .//*[@class='pointer']/span
+Definition Tab contains field 'providerClaimId'
+Verify if 'Start Preview' button is disabled
+---Start getting value for attribut: class of element: By.xpath: .//*[@id='tabDefinition']//button[text()='Start Preview']
+---Start to find element: By.xpath: .//*[@id='tabDefinition']//button[text()='Start Preview']
+'Start Preview' button is enable
+Verify if 'Clear Preview Data' button is disabled
+---Start getting value for attribut: class of element: By.xpath: .//*[@id='tabDefinition']//button[text()='Clear Preview Data']
+---Start to find element: By.xpath: .//*[@id='tabDefinition']//button[text()='Clear Preview Data']
+'Clear Preview Data' button is disabled
+Verify if 'Clear All' button is disabled
+---Start getting value for attribut: class of element: By.xpath: .//*[@id='tabDefinition']//button[text()='Clear All']
+---Start to find element: By.xpath: .//*[@id='tabDefinition']//button[text()='Clear All']
+'Clear All' button is enable
+Click 'Start Preview' button
+---Start to click on element: By.xpath: .//*[@id='tabDefinition']//button[text()='Start Preview']
+---Start to find element: By.xpath: .//*[@id='tabDefinition']//button[text()='Start Preview']
+Verify text at info label. Expected text: Preview started:
+---Start getting text on element: By.xpath: .//*[@id='tabDefinition']/div[3]
+---Start to find element: By.xpath: .//*[@id='tabDefinition']/div[3]
+---ERROR getting text at element By.xpath: .//*[@id='tabDefinition']/div[3]
+Modal dialog present: Internal Server Error
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'WSQAICD1001n', ip: '10.30.54.67', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=10, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:8665/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 9784f5e1-ce21-4e8e-b650-85d078144fad
+*** Element info: {Using=xpath, value=.//*[@id='tabDefinition']/div[3]}
+ERORR during search text 'Preview started:' at Info Label
+null
+Verify text at info label. Expected text: 17:41
+---Start getting text on element: By.xpath: .//*[@id='tabDefinition']/div[3]
+---Start to find element: By.xpath: .//*[@id='tabDefinition']/div[3]
+text '17:41' ISN'T present at Info Label. Unexpected text value: Click the 'Start Preview' button above to start streaming
+Verify text at info label. Expected text: Last record received: never
+---Start getting text on element: By.xpath: .//*[@id='tabDefinition']/div[3]
+---Start to find element: By.xpath: .//*[@id='tabDefinition']/div[3]
+text 'Last record received: never' ISN'T present at Info Label. Unexpected text value: Click the 'Start Preview' button above to start streaming
+Verify if 'Clear All' button is disabled
+---Start getting value for attribut: class of element: By.xpath: .//*[@id='tabDefinition']//button[text()='Clear All']
+---Start to find element: By.xpath: .//*[@id='tabDefinition']//button[text()='Clear All']
+'Clear All' button is enable
+------ [END] ------
+

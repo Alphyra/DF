@@ -1,0 +1,21 @@
+The following asserts failed:
+ERROR: number of filtrable fields isn't 23
+------ [Detailed Test Output] ------
+Select 'Claim' menu item
+Open template menu
+---Start to click on element: By.xpath: .//*[@id='app']//a[@class='dropdown-toggle']
+---Start to find element: By.xpath: .//*[@id='app']//a[@class='dropdown-toggle']
+---Start to click on element: By.xpath: .//*[@class='dropdown-menu']//a[text()='Claim']
+---Start to find element: By.xpath: .//*[@class='dropdown-menu']//a[text()='Claim']
+Click on 'Member' group header in Claim template
+---Start to click on element: By.xpath: .//li[contains(@data-reactid,'member')]/a[1]
+---Start to find element: By.xpath: .//li[contains(@data-reactid,'member')]/a[1]
+Click on 'Provider' group header
+---Start to click on element: By.xpath: .//li[contains(@data-reactid,'billingProvider')]/a[1]
+---Start to find element: By.xpath: .//li[contains(@data-reactid,'billingProvider')]/a[1]
+Count number of filters
+---Start getting count of element: By.xpath: .//*[@class='glyphicon icon-add-filter']
+---Start to find elements: By.xpath: .//*[@class='glyphicon icon-add-filter']
+78 filters found
+------ [END] ------
+
